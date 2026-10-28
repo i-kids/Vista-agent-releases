@@ -4,7 +4,7 @@
 
 ## 下载与安装
 
-[下载 Vista Desktop 0.1.0-preview.1](https://github.com/i-kids/Vista-agent-releases/releases/tag/v0.1.0-preview.1)，按电脑平台选择：
+[下载 Vista Desktop 0.1.0-preview.2](https://github.com/i-kids/Vista-agent-releases/releases/tag/v0.1.0-preview.2)，按电脑平台选择：
 
 - Mac Apple Silicon（M 系列）：macOS-arm64.dmg，或同架构 ZIP。
 - Mac Intel：macOS-x64.dmg，或同架构 ZIP。
@@ -12,7 +12,7 @@
 
 Mac 打开 DMG 后将 Vista Desktop.app 拖入“应用程序”；Windows 运行 Setup.exe。
 在电脑准备原生 Codex CLI 并配置自己的模型接入，然后打开 Vista Desktop 启动网关，再连接手机。
-版本页同时提供 SHA256SUMS 用于核对下载内容。当前为人工更新预览版，Mac 为 ad-hoc 签名、未公证，Windows 未正式代码签名；应用内自动更新及原生手机发行尚未开放。
+版本页同时提供 SHA256SUMS 用于核对下载内容。当前为桌面更新预览版，Mac 为 ad-hoc 签名、未公证，Windows 未正式代码签名；preview.1 用户需先人工安装一次 preview.2，之后通过应用内更新页检查并确认安装。原生手机发行暂缓。
 
 ## LAN
 
@@ -40,7 +40,7 @@ NAS与服务器相同，需要实际可达且证书正确的HTTPS反向代理。
 
 ## Updates
 
-唯一Vista发行页为[本仓库Releases](https://github.com/i-kids/Vista-agent-releases/releases)。仅在Vista签名清单和实际发行物就绪后启用相应更新能力。人工更新模式只提示维护者提供新版，不会自动下载或替换程序。保留旧版及数据备份，更新不应改变原CLI账号和项目目录。
+唯一Vista发行页为[本仓库Releases](https://github.com/i-kids/Vista-agent-releases/releases)。preview.2 已启用 Vista 自有桌面更新通道：从本公开库检查版本、验证 Vista Ed25519 签名与安装包 SHA256，再由用户确认安装。preview.1 保持人工更新，需先手动安装一次 preview.2。保留旧版及数据备份，更新不应改变原CLI账号和项目目录。
 
 ## Privacy
 
