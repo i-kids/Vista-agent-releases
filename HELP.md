@@ -2,6 +2,18 @@
 
 电脑运行原生 CLI 和 Vista Desktop，手机通过 Vista Mobile 或浏览器连接电脑网关。模型地址、模型ID和凭据由使用者在电脑配置，手机不需要登录官方 Codex App。
 
+## 下载与安装
+
+[下载 Vista Desktop 0.1.0-preview.1](https://github.com/i-kids/Vista-agent-releases/releases/tag/v0.1.0-preview.1)，按电脑平台选择：
+
+- Mac Apple Silicon（M 系列）：macOS-arm64.dmg，或同架构 ZIP。
+- Mac Intel：macOS-x64.dmg，或同架构 ZIP。
+- Windows x64：Windows-x64-Setup.exe；免安装使用同平台 ZIP。
+
+Mac 打开 DMG 后将 Vista Desktop.app 拖入“应用程序”；Windows 运行 Setup.exe。
+在电脑准备原生 Codex CLI 并配置自己的模型接入，然后打开 Vista Desktop 启动网关，再连接手机。
+版本页同时提供 SHA256SUMS 用于核对下载内容。当前为人工更新预览版，Mac 为 ad-hoc 签名、未公证，Windows 未正式代码签名；应用内自动更新及原生手机发行尚未开放。
+
 ## LAN
 
 手机与电脑连接同一可信网络，在 Vista Desktop 启动网关后使用界面显示的地址或配对码。登录信息以该电脑实际生成内容为准，不存在公开通用密码。English: use the gateway URL shown by your own desktop on the same trusted network.

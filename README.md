@@ -6,7 +6,7 @@ Vista 的公开发行与更新入口。此仓库只维护公开帮助、经过�
 - [使用与连接帮助](HELP.md)
 - [问题反馈](https://github.com/i-kids/Vista-agent-releases/issues)
 
-当前尚未在此仓库发布安装包或启用自动安装。更新渠道准备不等于已有正式发行；发布时会说明平台、版本、签名状态与适用范围。
+已发布 [Vista Desktop 0.1.0-preview.1 桌面预览版](https://github.com/i-kids/Vista-agent-releases/releases/tag/v0.1.0-preview.1)，提供 macOS Apple Silicon、macOS Intel 和 Windows x64 安装包及 SHA256SUMS。当前采用人工下载安装；应用内自动更新尚未启用。Mac 为 ad-hoc 签名、未公证，Windows 未正式代码签名；正式平台签名与原生手机发行暂缓。
 
 更新制品使用 `Vista-Desktop-*` / `Vista-Mobile-*` 名称，桌面签名清单为 `vista-update.json`。客户端不会要求用户提供源码仓库的 GitHub 令牌，也不使用 CMB 上游发布物替代 Vista 更新。
 
